@@ -70,7 +70,7 @@ for (i, j) in zip(n_dict.keys(), range(len(n_dict.keys()))):
     n_dict[i] = outer_list[j]
 
 # graph visualization package:
-import graphviz
+import graphviz # graphviz-0.20.1
 from graphviz import Digraph
 
 # graph type:
