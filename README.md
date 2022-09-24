@@ -2,4 +2,4 @@
 
 ## [digraph](https://github.com/cb-g/graphviz-templates/blob/main/digraph.py)
 
-<img src="digraph.gv.png" alt="digraph" width="500"/>
+<img src="digraph.gv.png" alt="digraph" width="750"/>
