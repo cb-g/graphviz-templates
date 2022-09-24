@@ -2,4 +2,4 @@
 
 ## [digraph](https://github.com/cb-g/graphviz-templates/blob/main/digraph.py)
 
-![](digraph.gv.pdf)
+![](https://github.com/cb-g/graphviz-templates/blob/main/digraph.gv.png)
