@@ -46,7 +46,7 @@ n_dict = {
 
 }
 
-# applying until_x() to the dictionary:
+# applying automatic linebreak to the dictionary:
 max_char = 22
 outer_list = []
 for a in range(len(n_dict.keys())):
