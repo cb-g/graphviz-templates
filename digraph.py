@@ -1,3 +1,7 @@
+import graphviz # graphviz-0.20.1
+from graphviz import Digraph
+from functions import autolinebreak
+
 # dictionary of nodes:
 n_dict = {
 
@@ -42,36 +46,17 @@ n_dict = {
 
 }
 
-# automatic linebreaks:
-# until_x() is from here: https://stackoverflow.com/questions/68905829/creating-a-newline-in-a-string-after-20-characters-at-the-end-of-a-word-python
-def until_x(string: str, x: int = 20) -> str:
-     lst = string.split()
-     line = ''
-     str_final = ''
-     for word in lst:
-         if len(line + ' ' + word) <= x:
-             str_final += word + ' '
-             line += word + ' '
-         else:
-             str_final += '\n' +  word + ' '
-             line = word + ' '
-     return str_final
-
 # applying until_x() to the dictionary:
 max_char = 22
 outer_list = []
 for a in range(len(n_dict.keys())):
     inner_list = []
     for b in range(len([[i for i in n_dict[k]] for k in n_dict.keys()][a])):
-        inner_list.append(until_x([[i for i in n_dict[k]] for k in n_dict.keys()][a][b], max_char))
+        inner_list.append(autolinebreak([[i for i in n_dict[k]] for k in n_dict.keys()][a][b], max_char))
     outer_list.append(inner_list)
 
 for (i, j) in zip(n_dict.keys(), range(len(n_dict.keys()))):
     n_dict[i] = outer_list[j]
-
-# graph visualization package:
-import graphviz # graphviz-0.20.1
-from graphviz import Digraph
 
 # graph type:
 digraph = Digraph('G', filename='digraph.gv')
