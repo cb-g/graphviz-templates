@@ -61,6 +61,12 @@ for (i, j) in zip(n_dict.keys(), range(len(n_dict.keys()))):
 # graph type:
 digraph = Digraph('G', filename='digraph.gv')
 
+# style docs:
+# https://graphviz.gitlab.io/doc/info/shapes.html
+# https://graphviz.gitlab.io/doc/info/colors.html
+# https://graphviz.gitlab.io/doc/info/attrs.html
+# https://graphviz.gitlab.io/doc/info/arrows.html
+
 # nodes that are no longer needed are made invisible: 
 digraph.attr('node', shape='plaintext')
 digraph.node(n_dict['type 4 node'][2])
