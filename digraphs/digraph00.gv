@@ -1,0 +1,220 @@
+digraph G {
+	node [shape=plaintext]
+	""
+	""
+	node [color=green4 fontcolor=gold shape=doublecircle style=filled]
+	"A A A "
+	"B B B "
+	"C C C "
+	node [color=red3 fontcolor=gold shape=doublecircle style=filled]
+	"X X X "
+	"Y Y Y "
+	"Z Z Z "
+	node [color=gold fontcolor=black shape=doublecircle style=filled]
+	"Q Q Q "
+	node [color=lightblue2 fontcolor=black shape=box style=filled]
+	"Enim sit amet 
+venenatis urna cursus 
+eget nunc. "
+	"Viverra aliquet eget 
+sit amet tellus cras 
+adipiscing. "
+	""
+	"Ornare lectus sit 
+amet est placerat in 
+egestas erat 
+imperdiet. "
+	"Condimentum id 
+venenatis a 
+condimentum vitae. "
+	"Scelerisque eleifend 
+donec pretium 
+vulputate sapien nec 
+sagittis. "
+	"Ac felis donec et 
+odio pellentesque 
+diam volutpat commodo 
+sed. "
+	"Dui accumsan sit amet 
+nulla facilisi morbi 
+tempus iaculis. "
+	"Pellentesque elit 
+ullamcorper dignissim 
+cras tincidunt 
+lobortis feugiat. "
+	"In eu mi bibendum 
+neque egestas. "
+	node [color=gray fontcolor=black shape=box style=filled]
+	"Erat pellentesque 
+adipiscing commodo 
+elit. "
+	"Posuere urna nec 
+tincidunt praesent 
+semper feugiat nibh. "
+	"Porta lorem mollis 
+aliquam ut porttitor. "
+	"Eget duis at tellus 
+at urna condimentum 
+mattis pellentesque. "
+	""
+	"Adipiscing diam donec 
+adipiscing tristique 
+risus nec feugiat. "
+	"Pretium vulputate 
+sapien nec sagittis 
+aliquam malesuada 
+bibendum arcu. "
+	"A A A " -> "B B B "
+	"C C C " -> "B B B "
+	"Y Y Y " -> "X X X "
+	"Y Y Y " -> "Z Z Z "
+	"X X X " -> "Q Q Q "
+	"Z Z Z " -> "Q Q Q "
+	"Enim sit amet 
+venenatis urna cursus 
+eget nunc. " -> "Scelerisque eleifend 
+donec pretium 
+vulputate sapien nec 
+sagittis. "
+	"Enim sit amet 
+venenatis urna cursus 
+eget nunc. " -> "Ac felis donec et 
+odio pellentesque 
+diam volutpat commodo 
+sed. "
+	"B B B " -> "Enim sit amet 
+venenatis urna cursus 
+eget nunc. "
+	"Viverra aliquet eget 
+sit amet tellus cras 
+adipiscing. " -> "Scelerisque eleifend 
+donec pretium 
+vulputate sapien nec 
+sagittis. "
+	"Viverra aliquet eget 
+sit amet tellus cras 
+adipiscing. " -> "Ac felis donec et 
+odio pellentesque 
+diam volutpat commodo 
+sed. "
+	"B B B " -> "Viverra aliquet eget 
+sit amet tellus cras 
+adipiscing. "
+	"Ornare lectus sit 
+amet est placerat in 
+egestas erat 
+imperdiet. " -> "Scelerisque eleifend 
+donec pretium 
+vulputate sapien nec 
+sagittis. "
+	"Ornare lectus sit 
+amet est placerat in 
+egestas erat 
+imperdiet. " -> "Ac felis donec et 
+odio pellentesque 
+diam volutpat commodo 
+sed. "
+	"B B B " -> "Ornare lectus sit 
+amet est placerat in 
+egestas erat 
+imperdiet. "
+	"Scelerisque eleifend 
+donec pretium 
+vulputate sapien nec 
+sagittis. " -> "Y Y Y "
+	"Ac felis donec et 
+odio pellentesque 
+diam volutpat commodo 
+sed. " -> "Y Y Y "
+	"Erat pellentesque 
+adipiscing commodo 
+elit. " -> "Dui accumsan sit amet 
+nulla facilisi morbi 
+tempus iaculis. "
+	"Posuere urna nec 
+tincidunt praesent 
+semper feugiat nibh. " -> "Dui accumsan sit amet 
+nulla facilisi morbi 
+tempus iaculis. "
+	"Y Y Y " -> "Dui accumsan sit amet 
+nulla facilisi morbi 
+tempus iaculis. "
+	"Dui accumsan sit amet 
+nulla facilisi morbi 
+tempus iaculis. " -> "Q Q Q "
+	"Posuere urna nec 
+tincidunt praesent 
+semper feugiat nibh. " -> "Pellentesque elit 
+ullamcorper dignissim 
+cras tincidunt 
+lobortis feugiat. "
+	"Y Y Y " -> "Pellentesque elit 
+ullamcorper dignissim 
+cras tincidunt 
+lobortis feugiat. "
+	"Pellentesque elit 
+ullamcorper dignissim 
+cras tincidunt 
+lobortis feugiat. " -> "Q Q Q "
+	"Porta lorem mollis 
+aliquam ut porttitor. " -> "In eu mi bibendum 
+neque egestas. "
+	"C C C " -> "In eu mi bibendum 
+neque egestas. "
+	"In eu mi bibendum 
+neque egestas. " -> "Y Y Y "
+	"Eget duis at tellus 
+at urna condimentum 
+mattis pellentesque. " -> "Y Y Y "
+	"Adipiscing diam donec 
+adipiscing tristique 
+risus nec feugiat. " -> "Z Z Z "
+	"Pretium vulputate 
+sapien nec sagittis 
+aliquam malesuada 
+bibendum arcu. " -> "A A A "
+	"A A A " -> "Condimentum id 
+venenatis a 
+condimentum vitae. "
+	"Condimentum id 
+venenatis a 
+condimentum vitae. " -> "X X X "
+	"A A A " -> "A A A "
+	"Z Z Z " -> "Z Z Z "
+	"Scelerisque eleifend 
+donec pretium 
+vulputate sapien nec 
+sagittis. " -> "Scelerisque eleifend 
+donec pretium 
+vulputate sapien nec 
+sagittis. "
+	"Adipiscing diam donec 
+adipiscing tristique 
+risus nec feugiat. " -> "Adipiscing diam donec 
+adipiscing tristique 
+risus nec feugiat. "
+	subgraph cluster_0 {
+		color=cadetblue4 shape=box style=bold
+		"Viverra aliquet eget 
+sit amet tellus cras 
+adipiscing. "
+		"Scelerisque eleifend 
+donec pretium 
+vulputate sapien nec 
+sagittis. "
+		"In eu mi bibendum 
+neque egestas. "
+		"Porta lorem mollis 
+aliquam ut porttitor. "
+	}
+	subgraph cluster_1 {
+		color=cadetblue4 shape=box style=bold
+		"Dui accumsan sit amet 
+nulla facilisi morbi 
+tempus iaculis. "
+		"Pellentesque elit 
+ullamcorper dignissim 
+cras tincidunt 
+lobortis feugiat. "
+	}
+}
