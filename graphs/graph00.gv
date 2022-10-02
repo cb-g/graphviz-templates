@@ -1,0 +1,157 @@
+graph G {
+	bgcolor=gray20 margin=0
+	subgraph cluster0 {
+		fillcolor="#DCB971" fontcolor=white label="Label: A" labelloc=c margin=15 pencolor=white style=filled
+		"Sed do 
+eiusmod 
+tempor 
+incididunt ut 
+labore et 
+dolore magna 
+aliqua. " [color=white fontcolor=white]
+		"Lobortis 
+elementum 
+nibh tellus 
+molestie nunc 
+non blandit 
+massa. " [color=white fontcolor=white]
+		"Faucibus 
+scelerisque 
+eleifend 
+donec 
+pretium. " [color=white fontcolor=white]
+		"Non diam 
+phasellus 
+vestibulum 
+lorem sed. " [color=white fontcolor=white]
+		"Lorem ipsum 
+dolor sit 
+amet, 
+consectetur 
+adipiscing 
+elit. " [color=white fontcolor=white]
+	}
+	subgraph cluster2 {
+		fillcolor="#1A2530" fontcolor=white label="Label: C" labelloc=c margin=15 pencolor=white style=filled
+		"Pellentesque 
+elit 
+ullamcorper 
+dignissim 
+cras 
+tincidunt 
+lobortis 
+feugiat. " [color=white fontcolor=white]
+		"In eu mi 
+bibendum 
+neque 
+egestas. " [color=white fontcolor=white]
+		"Dui accumsan 
+sit amet 
+nulla 
+facilisi 
+morbi tempus 
+iaculis. " [color=white fontcolor=white]
+		"Ac felis 
+donec et odio 
+pellentesque 
+diam volutpat 
+commodo sed. " [color=white fontcolor=white]
+		"Erat 
+pellentesque 
+adipiscing 
+commodo elit. " [color=white fontcolor=white]
+	}
+	subgraph cluster1 {
+		fillcolor="#7A5D41" fontcolor=white label="Label: B" labelloc=c margin=15 pencolor=white style=filled
+		subgraph cluster10 {
+			fillcolor="#7A5D41" fontcolor=white label="Label: Ba" labelloc=c margin=15 pencolor=white style=filled
+			"Nec sagittis 
+aliquam 
+malesuada 
+bibendum. " [color=white fontcolor=white]
+			"Posuere morbi 
+leo urna 
+molestie at. " [color=white fontcolor=white]
+			"Aliquet eget 
+sit amet 
+tellus cras. " [color=white fontcolor=white]
+			"Enim sit amet 
+venenatis 
+urna cursus 
+eget nunc. " [color=white fontcolor=white]
+		}
+		subgraph cluster11 {
+			fillcolor="#7A5D41" fontcolor=white label="Label: Bb" labelloc=c margin=15 pencolor=white style=filled
+			"Viverra 
+aliquet eget 
+sit amet 
+tellus cras 
+adipiscing. " [color=white fontcolor=white]
+			"Ornare lectus 
+sit amet est 
+placerat in 
+egestas erat 
+imperdiet. " [color=white fontcolor=white]
+			"Lacus sed 
+viverra 
+tellus in. " [color=white fontcolor=white]
+		}
+		subgraph cluster12 {
+			fillcolor="#7A5D41" fontcolor=white label="Label: Bc" labelloc=c margin=15 pencolor=white style=filled
+			"Condimentum 
+id venenatis 
+a condimentum 
+vitae. " [color=white fontcolor=white]
+		}
+		subgraph cluster13 {
+			fillcolor="#7A5D41" fontcolor=white label="Label: Bd" labelloc=c margin=15 pencolor=white style=filled
+			"Scelerisque 
+eleifend 
+donec pretium 
+vulputate 
+sapien nec 
+sagittis. " [color=white fontcolor=white]
+		}
+	}
+	subgraph cluster3 {
+		fillcolor="#3C6B6A" fontcolor=white label="Label: D" labelloc=c margin=15 pencolor=white style=filled
+		subgraph cluster30 {
+			fillcolor="#3C6B6A" fontcolor=white label="Label: Da" labelloc=c margin=15 pencolor=white style=filled
+			"Porta lorem 
+mollis 
+aliquam ut 
+porttitor. " [color=white fontcolor=white]
+			"Posuere urna 
+nec tincidunt 
+praesent 
+semper 
+feugiat nibh. " [color=white fontcolor=white]
+		}
+		subgraph cluster31 {
+			fillcolor="#3C6B6A" fontcolor=white label="Label: Db" labelloc=c margin=15 pencolor=white style=filled
+			"Leo urna 
+molestie at 
+elementum. " [color=white fontcolor=white]
+			"Pretium 
+vulputate 
+sapien nec 
+sagittis 
+aliquam 
+malesuada 
+bibendum 
+arcu. " [color=white fontcolor=white]
+			"Eget duis at 
+tellus at 
+urna 
+condimentum 
+mattis 
+pellentesque. " [color=white fontcolor=white]
+			"Adipiscing 
+diam donec 
+adipiscing 
+tristique 
+risus nec 
+feugiat. " [color=white fontcolor=white]
+		}
+	}
+}
