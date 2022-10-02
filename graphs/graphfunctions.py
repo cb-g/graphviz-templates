@@ -1,5 +1,5 @@
-import numpy as np
-import pandas as pd
+import numpy as np # numpy-1.23.3
+import pandas as pd # pandas-1.5.0
 
 # originally until_x() from here: https://stackoverflow.com/questions/68905829/creating-a-newline-in-a-string-after-20-characters-at-the-end-of-a-word-python
 def autolinebreak(string: str, x: int = 20) -> str:
@@ -18,6 +18,7 @@ def autolinebreak(string: str, x: int = 20) -> str:
 
 
 def get_indices(n_dict_subs):
+    
     no_nest_ids = list(np.where(pd.DataFrame(n_dict_subs).duplicated(keep=False))[0])
     nest_ids = []
     for idx in n_dict_subs:
