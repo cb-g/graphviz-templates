@@ -2,7 +2,7 @@
 import sys # sys.exit()
 import graphviz # graphviz-0.20.1
 from graphviz import Digraph
-from digraphfunctions import autolinebreak
+from graphfunctions import autolinebreak
 
 # dictionary of nodes:
 n_dict = {
