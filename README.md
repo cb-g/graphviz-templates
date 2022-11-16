@@ -12,7 +12,7 @@
 
 [digraph02.gv.pdf](https://github.com/cb-g/graphviz-templates/blob/main/digraphs/digraph02.gv.pdf)
 
-<img src="digraphs/digraph02.gv.png" alt="digraph" width="625"/>
+<img src="digraphs/digraph02.gv.png" alt="digraph" width="350"/>
 
 ## [graphs](https://github.com/cb-g/graphviz-templates/tree/main/graphs)
 
