@@ -1,8 +1,6 @@
 # Python 3.9.13
-import sys # sys.exit()
-import graphviz # graphviz-0.20.1
 from graphviz import Digraph
-from graphfunctions import autolinebreak
+from digraphfunctions import autolinebreak
 
 # dictionary of nodes:
 n_dict = {
@@ -65,7 +63,7 @@ digraph = Digraph(
     'G',
     format='pdf',
     # format='png',
-    filename='digraphs/digraph00.gv'
+    filename='digraphs/digraph01.gv'
     )
 
 # style docs:

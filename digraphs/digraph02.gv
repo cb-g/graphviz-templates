@@ -1,0 +1,149 @@
+digraph G {
+	bgcolor=gray20 margin=0
+	node [color="#1A2530" fontcolor=white shape=box style=filled]
+	"Task 1 "
+	"Task 2 "
+	"Task 3 "
+	"Task 4 "
+	"Task 5 "
+	"Task 6 "
+	"Task 7 "
+	"Task 8 "
+	"Task 9 "
+	"Task 10 "
+	"Task 11 "
+	"Task 12 "
+	"Task 13 "
+	"Task 14 "
+	"Task 15 "
+	"Task 16 "
+	"Task 17 "
+	"Task 18 "
+	"Task 19 "
+	"Task 20 "
+	"Task 21 "
+	"Task 22 "
+	"Task 23 "
+	"Task 24 "
+	"Task 25 "
+	"Task 1 " -> "Task 2 "
+	"Task 2 " -> "Task 3 "
+	"Task 3 " -> "Task 4 "
+	"Task 4 " -> "Task 5 "
+	"Task 6 " -> "Task 7 "
+	"Task 7 " -> "Task 8 "
+	"Task 8 " -> "Task 9 "
+	"Task 9 " -> "Task 10 "
+	"Task 11 " -> "Task 12 "
+	"Task 12 " -> "Task 13 "
+	"Task 13 " -> "Task 14 "
+	"Task 14 " -> "Task 15 "
+	"Task 16 " -> "Task 17 "
+	"Task 17 " -> "Task 18 "
+	"Task 18 " -> "Task 19 "
+	"Task 19 " -> "Task 20 "
+	"Task 21 " -> "Task 22 "
+	"Task 22 " -> "Task 23 "
+	"Task 23 " -> "Task 24 "
+	"Task 24 " -> "Task 25 "
+	subgraph cluster_Monday {
+		color="#D08057" fontcolor="#D08057" label=Monday shape=box style=bold
+		"Task 1 "
+	}
+	subgraph cluster_Monday {
+		color="#D08057" fontcolor="#D08057" label=Monday shape=box style=bold
+		"Task 2 "
+	}
+	subgraph cluster_Monday {
+		color="#D08057" fontcolor="#D08057" label=Monday shape=box style=bold
+		"Task 3 "
+	}
+	subgraph cluster_Monday {
+		color="#D08057" fontcolor="#D08057" label=Monday shape=box style=bold
+		"Task 4 "
+	}
+	subgraph cluster_Monday {
+		color="#D08057" fontcolor="#D08057" label=Monday shape=box style=bold
+		"Task 5 "
+	}
+	subgraph cluster_Tuesday {
+		color="#D08057" fontcolor="#D08057" label=Tuesday shape=box style=bold
+		"Task 6 "
+	}
+	subgraph cluster_Tuesday {
+		color="#D08057" fontcolor="#D08057" label=Tuesday shape=box style=bold
+		"Task 7 "
+	}
+	subgraph cluster_Tuesday {
+		color="#D08057" fontcolor="#D08057" label=Tuesday shape=box style=bold
+		"Task 8 "
+	}
+	subgraph cluster_Tuesday {
+		color="#D08057" fontcolor="#D08057" label=Tuesday shape=box style=bold
+		"Task 9 "
+	}
+	subgraph cluster_Tuesday {
+		color="#D08057" fontcolor="#D08057" label=Tuesday shape=box style=bold
+		"Task 10 "
+	}
+	subgraph cluster_Wednesday {
+		color="#D08057" fontcolor="#D08057" label=Wednesday shape=box style=bold
+		"Task 11 "
+	}
+	subgraph cluster_Wednesday {
+		color="#D08057" fontcolor="#D08057" label=Wednesday shape=box style=bold
+		"Task 12 "
+	}
+	subgraph cluster_Wednesday {
+		color="#D08057" fontcolor="#D08057" label=Wednesday shape=box style=bold
+		"Task 13 "
+	}
+	subgraph cluster_Wednesday {
+		color="#D08057" fontcolor="#D08057" label=Wednesday shape=box style=bold
+		"Task 14 "
+	}
+	subgraph cluster_Wednesday {
+		color="#D08057" fontcolor="#D08057" label=Wednesday shape=box style=bold
+		"Task 15 "
+	}
+	subgraph cluster_Thursday {
+		color="#D08057" fontcolor="#D08057" label=Thursday shape=box style=bold
+		"Task 16 "
+	}
+	subgraph cluster_Thursday {
+		color="#D08057" fontcolor="#D08057" label=Thursday shape=box style=bold
+		"Task 17 "
+	}
+	subgraph cluster_Thursday {
+		color="#D08057" fontcolor="#D08057" label=Thursday shape=box style=bold
+		"Task 18 "
+	}
+	subgraph cluster_Thursday {
+		color="#D08057" fontcolor="#D08057" label=Thursday shape=box style=bold
+		"Task 19 "
+	}
+	subgraph cluster_Thursday {
+		color="#D08057" fontcolor="#D08057" label=Thursday shape=box style=bold
+		"Task 20 "
+	}
+	subgraph cluster_Friday {
+		color="#D08057" fontcolor="#D08057" label=Friday shape=box style=bold
+		"Task 21 "
+	}
+	subgraph cluster_Friday {
+		color="#D08057" fontcolor="#D08057" label=Friday shape=box style=bold
+		"Task 22 "
+	}
+	subgraph cluster_Friday {
+		color="#D08057" fontcolor="#D08057" label=Friday shape=box style=bold
+		"Task 23 "
+	}
+	subgraph cluster_Friday {
+		color="#D08057" fontcolor="#D08057" label=Friday shape=box style=bold
+		"Task 24 "
+	}
+	subgraph cluster_Friday {
+		color="#D08057" fontcolor="#D08057" label=Friday shape=box style=bold
+		"Task 25 "
+	}
+}
